@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Component/Header";
+import LoginForm from "./Component/Login";
+import Home from "./Component/Home";
+import WeatherForecast from "./Component/WeatherFrocast";
+import CropCost from "./Component/CropCost";
+import Fertilizers from "./Component/Fertilizers";
+import { Route, Routes } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App=()=>(
+  <div className="app-container">
+  <div className="responsive-container">
+    <Header />
+    <div className="app-body">
+      <Routes>
+        <Route exact path="/Login" element={<LoginForm/>} />
+        <Route  path="/" element={<Home/>} />
+        <Route exact path="/Weather" element={<WeatherForecast/>} />
+        <Route exact path="/CropCost" element={<CropCost/>} />
+        <Route exact path="/Fertilizers" element={<Fertilizers/>} />
+      </Routes>
     </div>
-  );
-}
-
-export default App;
+  </div>
+</div>
+)
+export default App
