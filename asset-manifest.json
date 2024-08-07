@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AgroGuide/static/css/main.c61bf505.css",
+    "main.js": "/AgroGuide/static/js/main.754bf6fb.js",
+    "static/js/453.ed3810f9.chunk.js": "/AgroGuide/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/AgroGuide/index.html",
+    "main.c61bf505.css.map": "/AgroGuide/static/css/main.c61bf505.css.map",
+    "main.754bf6fb.js.map": "/AgroGuide/static/js/main.754bf6fb.js.map",
+    "453.ed3810f9.chunk.js.map": "/AgroGuide/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c61bf505.css",
+    "static/js/main.754bf6fb.js"
+  ]
+}
